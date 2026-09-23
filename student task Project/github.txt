@@ -1,0 +1,209 @@
+Student Task Management System
+CSE471 Group Project
+
+The Student Task Management System is a full-stack web application developed as part of the CSE471 course project.
+
+The system allows students to create an account, securely log in, and manage their academic tasks through a web-based dashboard.
+
+Features
+
+User registration
+
+Secure user login
+
+Logout functionality
+
+Password hashing
+
+Session-based authentication
+
+Task creation
+
+Task viewing
+
+Task editing
+
+Task deletion
+
+Task search
+
+Status filtering
+
+Priority filtering
+
+User profile
+
+Server-side validation
+
+Client-side validation
+
+SQL injection protection using prepared statements
+
+User-specific access control
+
+Responsive interface
+
+Technologies Used
+Frontend
+
+HTML5
+
+CSS3
+
+JavaScript
+
+Backend
+
+PHP
+
+Database
+
+MySQL
+
+Development Environment
+
+XAMPP
+
+phpMyAdmin
+
+Visual Studio Code
+
+Git and GitHub
+
+Database Structure
+
+The application uses two main tables:
+
+Users
+
+Stores registered user information.
+
+Main fields:
+
+id
+
+name
+
+email
+
+password
+
+created_at
+
+Tasks
+
+Stores tasks created by users.
+
+Main fields:
+
+id
+
+user_id
+
+title
+
+description
+
+priority
+
+status
+
+due_date
+
+created_at
+
+Each task is associated with a user through the user_id foreign key.
+
+Installation
+1. Install XAMPP
+
+Install XAMPP and start:
+
+Apache
+
+MySQL
+
+2. Clone the repository
+
+Place the project inside the XAMPP htdocs directory.
+
+Example:
+
+htdocs/student-task-manager/
+
+3. Create the database
+
+Open phpMyAdmin and create/import the database using:
+
+database/database.sql
+
+
+The database name is:
+
+student_task_manager
+
+4. Configure the database
+
+Open:
+
+config/database.php
+
+
+Update the database host, username and password if necessary.
+
+5. Run the application
+
+Open:
+
+http://localhost/student-task-manager/
+
+Security
+
+The application uses password hashing for storing user passwords and password verification during login.
+
+Database queries use PDO prepared statements to reduce SQL injection risks.
+
+Authentication is managed using PHP sessions, and task operations check the logged-in user's ID to prevent unauthorized access to another user's tasks.
+
+User-generated output is escaped before being displayed in HTML.
+
+Project Structure
+student-task-manager/
+├── config/
+├── database/
+├── includes/
+├── js/
+├── css/
+├── index.php
+├── login.php
+├── register.php
+├── logout.php
+├── dashboard.php
+├── profile.php
+├── add_task.php
+├── edit_task.php
+└── delete_task.php
+
+Authors
+
+CSE471 Group Project
+
+Group ID: [GROUP ID]
+
+Group Members
+
+[Member Name] - [Student ID]
+
+[Member Name] - [Student ID]
+
+[Member Name] - [Student ID]
+
+[Member Name] - [Student ID]
+
+Live Website
+
+[Insert live website URL]
+
+GitHub Repository
+
+[Insert GitHub repository URL]
