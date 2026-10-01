@@ -387,7 +387,7 @@ https://github.com/afroza054/student-task-project
 ## Live Website
 
 ```text
-[INSERT DEPLOYED WEBSITE URL]
+https://afroza-jabin-ruma.ct.ws
 ```
 
 ## License
