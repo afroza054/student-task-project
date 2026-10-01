@@ -369,12 +369,12 @@ This project was developed as a CSE471 web application project.
 
 ### Members
 
-| Name              | Student ID | Contribution                          |
-| ----------        | ---------- | ------------------------------------- |
-| [Zakiyah & Anik]  | [ID]       | Frontend/UI                           |
-| [Sazedul]         | [ID]       | PHP Authentication                    |
-| [Zakiyah & Anik]  | [ID]       | MySQL and CRUD                        |
-| [Afroza Ruma]     | [ID]       | JavaScript, testing and documentation |
+| Name                | Student ID   | Contribution                        |
+| ----------          | ----------   | ----------------------------------- |
+| [Sazedul & Afroza]  | [ID]       | Front-end/UI                          |
+| [Sazedul & Afroza]  | [ID]       | PHP Authentication                    |
+| [Zakiyah & Anik]    | [ID]       | MySQL and CRUD                        |
+| [Zakiyah & Anik]    | [ID]       | JavaScript, testing and documentation |
 
 ## Repository
 
